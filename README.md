@@ -45,17 +45,17 @@
 
 ### Binary Open-Vocabulary Change Detection (F1<sup>c</sup> / IoU<sup>c</sup>)
 
-| Method            |  Identifier | Comparator | WHU-CD | LEVIR-CD | DSIFN | CLCD  |
-| :---------------: | :----------: | :---------: | :-------: | :-------: | :-------: | :-------: |
-| UCD-SCM      | SAM  | OTSU |   32.13 / 19.14    |  32.36 / 19.30   |    40.13 / 25.10  | 23.31 / 13.19 |
-| AnyChange          |    SAM   | Latent Match |  28.13 / 16.37    |   32.68 / 19.53    |    39.19 / 24.37   | 31.96 / 19.02 |
-| AnyChange*          |    SAM   | Latent Match |   69.25 / 52.96    |   <u>72.27</u> / <u>56.58</u>   |  <u>54.69</u> / <u>37.64</u>    | 27.55 / 15.98 |
-| Inst-CEG            |  SegEarth-OV3  | CEG |  62.54 / 45.49    |  63.29 / 46.30   |  31.81 / 18.91   |  6.76 / 3.50  |
-| Inst-CEG*            |  APE  | CEG |  71.35 / 55.46    |   70.62 / 54.58   |    47.21 / 30.90   |  10.09 / 5.32 |
-| DynamicEarth (M-C-I) |  SAM  | Latent Match (DINOv2) |  57.35 / 40.20    |   46.43 / 30.23   |  54.35 / 37.32 | 23.83 / 13.52 |
-| DynamicEarth (I-M-C) |  APE  | Latent Match (DINOv2) |   75.85 / 61.09    |   69.70 / 53.50    | 26.42 / 15.22 | 14.97 / 8.09 |
-| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) |  <u>79.66</u> / <u>66.20</u>    |   71.97 / 56.21    | 39.30 / 24.45 | <u>38.16</u> / <u>23.58</u> |
-| **Seg2Change**   | SegEarth-OV3 | CACH (ours) | **86.18 / 75.72** | **78.72 / 64.91**  | **58.56 / 41.40**  | **47.89 / 31.48**  |
+| Method            |  Identifier | Comparator | WHU-CD | LEVIR-CD |
+| :---------------: | :----------: | :---------: | :-------: | :-------: |
+| UCD-SCM      | SAM  | OTSU |   32.13 / 19.14    |  32.36 / 19.30   |
+| AnyChange          |    SAM   | Latent Match |  28.13 / 16.37    |   32.68 / 19.53    |
+| AnyChange*          |    SAM   | Latent Match | 69.25 / 52.96 | <u>72.27</u> / <u>56.58</u> |
+| Inst-CEG            |  SegEarth-OV3  | CEG |  62.54 / 45.49    |  63.29 / 46.30   |
+| Inst-CEG*            |  APE  | CEG |  71.35 / 55.46    |   70.62 / 54.58   |
+| DynamicEarth (M-C-I) |  SAM  | Latent Match (DINOv2) |  57.35 / 40.20    |   46.43 / 30.23   |
+| DynamicEarth (I-M-C) |  APE  | Latent Match (DINOv2) |   75.85 / 61.09    |   69.70 / 53.50    |
+| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) |  <u>79.66</u> / <u>66.20</u>    |   71.97 / 56.21    |
+| **Seg2Change**   | SegEarth-OV3 | CACH (ours) | **86.18 / 75.72** | **78.72 / 64.91**  |
 
 | Method            |  Identifier | Comparator | DSIFN | CLCD  |
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
@@ -66,7 +66,7 @@
 | Inst-CEG*            |  APE  | CEG |    47.21 / 30.90   |  10.09 / 5.32 |
 | DynamicEarth (M-C-I) |  SAM  | Latent Match (DINOv2) |  54.35 / 37.32 | 23.83 / 13.52 |
 | DynamicEarth (I-M-C) |  APE  | Latent Match (DINOv2) | 26.42 / 15.22 | 14.97 / 8.09 |
-| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) | <u>38.16</u> / <u>23.58</u> |
+| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) | 39.30 / 24.45 | <u>38.16</u> / <u>23.58</u> |
 | **Seg2Change**   | SegEarth-OV3 | CACH (ours) | **58.56 / 41.40**  | **47.89 / 31.48**  |
 
 ### Semantic Open-Vocabulary Change Detection (mF1<sup>c</sup> / mIoU<sup>c</sup>)
