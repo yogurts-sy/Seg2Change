@@ -89,7 +89,7 @@ We include the following dataset configurations in this repo:
 2) `Land-Cover Change Detection`: [DSIFN](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset), [CLCD](https://github.com/liumency/CropLand-CD)
 3) `Semantic Change Detection`: [SC-SCD](https://zenodo.org/records/17218853), [SECOND](https://captain-whu.github.io/SCD/)
 
-Please crop the images to a resolution of 512×512 for dataset preparation and organize them into `~/A`, `~/B`, `~/label`. We also provide processed evaluation datasets, as well as our Category-Agnostic Change Detection Dataset (<b>CA-CDD</b>), in [Processed_Dataset.zip](https://github.com/yogurts-sy/Seg2Change/dataset_prepare.md).
+Please crop the images to a resolution of 512×512 for dataset preparation and organize them into `~/A`, `~/B`, `~/label`. We also provide processed evaluation datasets, as well as our Category-Agnostic Change Detection Dataset (<b>CA-CDD</b>), in [OVCD_Benchmark.zip](https://pan.baidu.com/s/1E9rYpQDidek_qhx3yD1WGA?pwd=5egw).
 
 ## Dependencies and Installation
 
