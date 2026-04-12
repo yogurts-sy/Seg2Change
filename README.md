@@ -49,24 +49,24 @@
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
 | UCD-SCM      | SAM  | OTSU |   32.13 / 19.14    |  32.36 / 19.30   |
 | AnyChange          |    SAM   | Latent Match |  28.13 / 16.37    |   32.68 / 19.53    |
-| AnyChange*          |    SAM   | Latent Match | 69.25 / 52.96 | <ins>72.27</ins> / <u>56.58</u> |
+| AnyChange*          |    SAM   | Latent Match | 69.25 / 52.96 | <ins>72.27</ins> / <ins>56.58</ins> |
 | Inst-CEG            |  SegEarth-OV3  | CEG |  62.54 / 45.49    |  63.29 / 46.30   |
 | Inst-CEG*            |  APE  | CEG |  71.35 / 55.46    |   70.62 / 54.58   |
 | DynamicEarth (M-C-I) |  SAM  | Latent Match (DINOv2) |  57.35 / 40.20    |   46.43 / 30.23   |
 | DynamicEarth (I-M-C) |  APE  | Latent Match (DINOv2) |   75.85 / 61.09    |   69.70 / 53.50    |
-| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) |  <u>79.66</u> / <u>66.20</u>    |   71.97 / 56.21    |
+| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) |  <ins>79.66</ins> / <ins>66.20</ins>    |   71.97 / 56.21    |
 | **Seg2Change**   | SegEarth-OV3 | CACH (ours) | **86.18 / 75.72** | **78.72 / 64.91**  |
 
 | Method            |  Identifier | Comparator | DSIFN | CLCD  |
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
 | UCD-SCM      | SAM  | OTSU  |    40.13 / 25.10  | 23.31 / 13.19 |
 | AnyChange          |    SAM   | Latent Match  |    39.19 / 24.37  | 31.96 / 19.02 |
-| AnyChange*          |    SAM   | Latent Match |  <u>54.69</u> / <span style="text-decoration: underline;">37.64</span>    | 27.55 / 15.98 |
+| AnyChange*          |    SAM   | Latent Match |  <ins>54.69</ins> / <span style="text-decoration: underline;">37.64</span>    | 27.55 / 15.98 |
 | Inst-CEG            |  SegEarth-OV3  | CEG |  31.81 / 18.91   |  6.76 / 3.50  |
 | Inst-CEG*            |  APE  | CEG |    47.21 / 30.90   |  10.09 / 5.32 |
 | DynamicEarth (M-C-I) |  SAM  | Latent Match (DINOv2) |  54.35 / 37.32 | 23.83 / 13.52 |
 | DynamicEarth (I-M-C) |  APE  | Latent Match (DINOv2) | 26.42 / 15.22 | 14.97 / 8.09 |
-| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) | 39.30 / 24.45 | <u>38.16</u> / <u>23.58</u> |
+| DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) | 39.30 / 24.45 | <ins>38.16</ins> / <ins>23.58</ins> |
 | **Seg2Change**   | SegEarth-OV3 | CACH (ours) | **58.56 / 41.40**  | **47.89 / 31.48**  |
 
 ### Semantic Open-Vocabulary Change Detection (mF1<sup>c</sup> / mIoU<sup>c</sup>)
@@ -74,11 +74,11 @@
 | Method            |  GPU Memory (GB) | Inference Time (ms) | SC-SCD | SECOND |
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
 | UCD-SCM      |  9.46 (100%)  |  3225 (100%) |    12.06 / 6.51    |  14.63 / 8.40 |
-| AnyChange          |     <u>6.59</u> (69%)   |  3988 (124%) |  16.51 / 9.32    | 19.54 / 11.84 |
-| AnyChange*          |    10.15 (107%)   |  <u>2683</u> (83%) | 16.64 / 9.48 | 21.30 / 13.81 |
+| AnyChange          |     <ins>6.59</ins> (69%)   |  3988 (124%) |  16.51 / 9.32    | 19.54 / 11.84 |
+| AnyChange*          |    10.15 (107%)   |  <ins>2683</ins> (83%) | 16.64 / 9.48 | 21.30 / 13.81 |
 | Inst-CEG            |  14.95 (158%)  | 5672 (176%) | 6.90 / 3.68 | 17.82 / 10.46 |
 | Inst-CEG*            |  7.08 (75%)  | 2928 (91%) | 23.57 / 14.35 | 29.35 / 18.40 |
-| DynamicEarth (M-C-I) |  7.33 (77%)  | 5035 (156%) | <u>29.11</u> / <u>17.97</u> | <u>37.51</u> / <u>23.58</u>  |
+| DynamicEarth (M-C-I) |  7.33 (77%)  | 5035 (156%) | <ins>29.11</ins> / <ins>17.97</ins> | <ins>37.51</ins> / <ins>23.58</ins>  |
 | DynamicEarth (I-M-C) |   15.33 (162%)  |  6784 (210%) | 9.19 / 5.16 | 22.17 / 13.72 |
 | DynamicEarth* |  11.19 (118%)  | 2892 (89%) | 19.87 / 11.47 | 25.43 / 15.24 |
 | **Seg2Change**   | **6.08** (64%) | **1521** (47%) | **35.68 / 23.22** | **42.89 / 29.08**  |
