@@ -106,13 +106,13 @@ mim install mmcv==2.2.0
 pip install -r requirements.txt
 ```
 
-## Download checkpoints
+## Download Checkpoints
 Please download the pretrained weights for SAM3 and DINOv2 and place them in the corresponding directories.
 1. Download checkpoints from [HF](https://huggingface.co/facebook/sam3) or [ModelScope](https://modelscope.cn/models/facebook/sam3) and put it into `./weights/sam3`.
 2. Download checkpoints from [DINOv2-Small](https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth) | [DINOv2-Base](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth) and put it into `./weights/dinov2`.
 3. Download checkpoints from [best.pth](https://github.com/yogurts-sy/Seg2Change/blob/main/exp/CK/best.pth) and put it into `./weights/cach`.
  
-## Model evaluation
+## Model Evaluation
 
 ```python
 # 1. Download the Processed_Dataset.zip (dataset_root_path)
