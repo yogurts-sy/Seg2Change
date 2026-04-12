@@ -61,7 +61,7 @@
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
 | UCD-SCM      | SAM  | OTSU  |    40.13 / 25.10  | 23.31 / 13.19 |
 | AnyChange          |    SAM   | Latent Match  |    39.19 / 24.37  | 31.96 / 19.02 |
-| AnyChange*          |    SAM   | Latent Match |  <ins>54.69</ins> / <span style="text-decoration: underline;">37.64</span>    | 27.55 / 15.98 |
+| AnyChange*          |    SAM   | Latent Match |  <ins>54.69</ins> / <ins>37.64</ins>    | 27.55 / 15.98 |
 | Inst-CEG            |  SegEarth-OV3  | CEG |  31.81 / 18.91   |  6.76 / 3.50  |
 | Inst-CEG*            |  APE  | CEG |    47.21 / 30.90   |  10.09 / 5.32 |
 | DynamicEarth (M-C-I) |  SAM  | Latent Match (DINOv2) |  54.35 / 37.32 | 23.83 / 13.52 |
