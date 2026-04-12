@@ -20,7 +20,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://github.com/yogurts-sy/Seg2Change" target='_blank'>[Code]</a> • <a href="" target='_blank'>[arXiv]</a> • <a href="https://github.com/yogurts-sy/Seg2Change/test_cach_ovcd.py" target='_blank'>[Reproduce]</a> •
+        • <a href="https://github.com/yogurts-sy/Seg2Change" target='_blank'>[Code]</a> • <a href="" target='_blank'>[arXiv]</a> • <a href="https://github.com/yogurts-sy/Seg2Change/blob/main/test_cach_ovcd.py" target='_blank'>[Reproduce]</a> •
     </h4>
 </div>
 
