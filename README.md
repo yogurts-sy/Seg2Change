@@ -41,7 +41,7 @@
 > Visual comparison between CA-CDD category-agnostic change labels and the original coarse labels. We have improved the limited category range of the original labels. At the same time, we have refined the coarse-grained range annotations in the labels to fine-grained annotations. The <b><span style="color:#A5A5A5;">gray</span></b> markings in the figure represent the refinements we made to the original labels.
 
 ## Results
-**We provide the training log of each reported value. You can refer to them during reproducing. We also provide the best cach checkpoints of our core experiments.**
+**We provide the [training log](https://github.com/yogurts-sy/Seg2Change/tree/main/exp) of each reported value. You can refer to them during reproducing. We also provide the best cach [checkpoints](https://github.com/yogurts-sy/Seg2Change/blob/main/exp/CK/best.pth) of our core experiments.**
 
 ### Binary Open-Vocabulary Change Detection (F1<sup>c</sup> / IoU<sup>c</sup>)
 
