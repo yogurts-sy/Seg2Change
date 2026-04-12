@@ -1,0 +1,7 @@
+bareland,barren,ground,floor,soil
+water,river,pond
+building,roof,house
+structure,construction,greenhouse
+farmland,cropland,terrace
+grass,vegetation,tree,forest
+road

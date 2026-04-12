@@ -1,0 +1,375 @@
+{'batch_size': 4,
+ 'crop_size': 504,
+ 'dataset': 'CACD',
+ 'dataset_root': '/root/autodl-tmp/Datasets/CACD_v2/',
+ 'dino_ft': 'frozen',
+ 'encoder_size': 'base',
+ 'epochs': 20,
+ 'feat_path': '/root/autodl-tmp/Codes/SegEarth-OV-3/features_ck01',
+ 'labeled_id': None,
+ 'loss_multi': True,
+ 'loss_sim': True,
+ 'lr': 0.001,
+ 'nclass': 2,
+ 'save_path': '/root/autodl-tmp/Codes/SegEarth-OV-3/exp/train_net_ft_dino_base_CACD_v2/test02',
+ 'val_dataset': 'whu_levir'}
+
+===========> Epoch: 0, Previous best AVG whu_levir Changed IoU: 0.00
+Epoch [0/20] Iter [0/1242] Loss: 0.7590
+Epoch [0/20] Iter [128/1242] Loss: 0.5409
+Epoch [0/20] Iter [256/1242] Loss: 0.5055
+Epoch [0/20] Iter [384/1242] Loss: 0.4935
+Epoch [0/20] Iter [512/1242] Loss: 0.4698
+Epoch [0/20] Iter [640/1242] Loss: 0.4580
+Epoch [0/20] Iter [768/1242] Loss: 0.4447
+Epoch [0/20] Iter [896/1242] Loss: 0.4342
+Epoch [0/20] Iter [1024/1242] Loss: 0.4276
+Epoch [0/20] Iter [1152/1242] Loss: 0.4191
+Epoch [0/20] Loss: 0.4130 LR: 0.000994
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 72.25, F1: 83.89, Precision: 81.25, Recall: 86.71, OA: 98.77, Kappa: 0.8325
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 62.74, F1: 77.11, Precision: 67.86, Recall: 89.28, OA: 97.30, Kappa: 0.7570
+Best model saved with Avg IoU: 67.50
+
+
+===========> Epoch: 1, Previous best AVG whu_levir Changed IoU: 67.50
+Epoch [1/20] Iter [0/1242] Loss: 0.3872
+Epoch [1/20] Iter [128/1242] Loss: 0.3350
+Epoch [1/20] Iter [256/1242] Loss: 0.3438
+Epoch [1/20] Iter [384/1242] Loss: 0.3436
+Epoch [1/20] Iter [512/1242] Loss: 0.3436
+Epoch [1/20] Iter [640/1242] Loss: 0.3416
+Epoch [1/20] Iter [768/1242] Loss: 0.3396
+Epoch [1/20] Iter [896/1242] Loss: 0.3385
+Epoch [1/20] Iter [1024/1242] Loss: 0.3361
+Epoch [1/20] Iter [1152/1242] Loss: 0.3351
+Epoch [1/20] Loss: 0.3346 LR: 0.000976
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 73.40, F1: 84.66, Precision: 81.88, Recall: 87.64, OA: 98.83, Kappa: 0.8405
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 63.31, F1: 77.54, Precision: 68.68, Recall: 89.02, OA: 97.37, Kappa: 0.7617
+Best model saved with Avg IoU: 68.36
+
+
+===========> Epoch: 2, Previous best AVG whu_levir Changed IoU: 68.36
+Epoch [2/20] Iter [0/1242] Loss: 0.3672
+Epoch [2/20] Iter [128/1242] Loss: 0.3353
+Epoch [2/20] Iter [256/1242] Loss: 0.3190
+Epoch [2/20] Iter [384/1242] Loss: 0.3162
+Epoch [2/20] Iter [512/1242] Loss: 0.3189
+Epoch [2/20] Iter [640/1242] Loss: 0.3172
+Epoch [2/20] Iter [768/1242] Loss: 0.3155
+Epoch [2/20] Iter [896/1242] Loss: 0.3158
+Epoch [2/20] Iter [1024/1242] Loss: 0.3167
+Epoch [2/20] Iter [1152/1242] Loss: 0.3143
+Epoch [2/20] Loss: 0.3115 LR: 0.000946
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.63, F1: 85.47, Precision: 83.61, Recall: 87.41, OA: 98.90, Kappa: 0.8490
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 61.98, F1: 76.53, Precision: 71.60, Recall: 82.19, OA: 97.43, Kappa: 0.7518
+
+
+
+===========> Epoch: 3, Previous best AVG whu_levir Changed IoU: 68.36
+Epoch [3/20] Iter [0/1242] Loss: 0.3432
+Epoch [3/20] Iter [128/1242] Loss: 0.2929
+Epoch [3/20] Iter [256/1242] Loss: 0.2931
+Epoch [3/20] Iter [384/1242] Loss: 0.2898
+Epoch [3/20] Iter [512/1242] Loss: 0.2901
+Epoch [3/20] Iter [640/1242] Loss: 0.2914
+Epoch [3/20] Iter [768/1242] Loss: 0.2931
+Epoch [3/20] Iter [896/1242] Loss: 0.2955
+Epoch [3/20] Iter [1024/1242] Loss: 0.2969
+Epoch [3/20] Iter [1152/1242] Loss: 0.2975
+Epoch [3/20] Loss: 0.2988 LR: 0.000905
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.18, F1: 85.18, Precision: 82.77, Recall: 87.72, OA: 98.87, Kappa: 0.8459
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 62.98, F1: 77.29, Precision: 69.68, Recall: 86.77, OA: 97.40, Kappa: 0.7593
+Best model saved with Avg IoU: 68.58
+
+
+===========> Epoch: 4, Previous best AVG whu_levir Changed IoU: 68.58
+Epoch [4/20] Iter [0/1242] Loss: 0.3284
+Epoch [4/20] Iter [128/1242] Loss: 0.2917
+Epoch [4/20] Iter [256/1242] Loss: 0.2887
+Epoch [4/20] Iter [384/1242] Loss: 0.2872
+Epoch [4/20] Iter [512/1242] Loss: 0.2866
+Epoch [4/20] Iter [640/1242] Loss: 0.2871
+Epoch [4/20] Iter [768/1242] Loss: 0.2874
+Epoch [4/20] Iter [896/1242] Loss: 0.2864
+Epoch [4/20] Iter [1024/1242] Loss: 0.2866
+Epoch [4/20] Iter [1152/1242] Loss: 0.2877
+Epoch [4/20] Loss: 0.2877 LR: 0.000854
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.11, F1: 85.13, Precision: 79.60, Recall: 91.49, OA: 98.82, Kappa: 0.8452
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.60, F1: 78.50, Precision: 68.83, Recall: 91.32, OA: 97.45, Kappa: 0.7717
+Best model saved with Avg IoU: 69.36
+
+
+===========> Epoch: 5, Previous best AVG whu_levir Changed IoU: 69.36
+Epoch [5/20] Iter [0/1242] Loss: 0.3059
+Epoch [5/20] Iter [128/1242] Loss: 0.2788
+Epoch [5/20] Iter [256/1242] Loss: 0.2738
+Epoch [5/20] Iter [384/1242] Loss: 0.2730
+Epoch [5/20] Iter [512/1242] Loss: 0.2742
+Epoch [5/20] Iter [640/1242] Loss: 0.2744
+Epoch [5/20] Iter [768/1242] Loss: 0.2763
+Epoch [5/20] Iter [896/1242] Loss: 0.2775
+Epoch [5/20] Iter [1024/1242] Loss: 0.2769
+Epoch [5/20] Iter [1152/1242] Loss: 0.2769
+Epoch [5/20] Loss: 0.2782 LR: 0.000794
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 75.78, F1: 86.22, Precision: 82.86, Recall: 89.87, OA: 98.94, Kappa: 0.8567
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 61.36, F1: 76.05, Precision: 70.45, Recall: 82.62, OA: 97.35, Kappa: 0.7466
+
+
+
+===========> Epoch: 6, Previous best AVG whu_levir Changed IoU: 69.36
+Epoch [6/20] Iter [0/1242] Loss: 0.3320
+Epoch [6/20] Iter [128/1242] Loss: 0.2748
+Epoch [6/20] Iter [256/1242] Loss: 0.2706
+Epoch [6/20] Iter [384/1242] Loss: 0.2697
+Epoch [6/20] Iter [512/1242] Loss: 0.2663
+Epoch [6/20] Iter [640/1242] Loss: 0.2687
+Epoch [6/20] Iter [768/1242] Loss: 0.2709
+Epoch [6/20] Iter [896/1242] Loss: 0.2712
+Epoch [6/20] Iter [1024/1242] Loss: 0.2697
+Epoch [6/20] Iter [1152/1242] Loss: 0.2695
+Epoch [6/20] Loss: 0.2698 LR: 0.000727
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.05, F1: 85.09, Precision: 78.66, Recall: 92.68, OA: 98.80, Kappa: 0.8447
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.71, F1: 78.57, Precision: 68.45, Recall: 92.20, OA: 97.44, Kappa: 0.7724
+Best model saved with Avg IoU: 69.38
+
+
+===========> Epoch: 7, Previous best AVG whu_levir Changed IoU: 69.38
+Epoch [7/20] Iter [0/1242] Loss: 0.4082
+Epoch [7/20] Iter [128/1242] Loss: 0.2617
+Epoch [7/20] Iter [256/1242] Loss: 0.2590
+Epoch [7/20] Iter [384/1242] Loss: 0.2612
+Epoch [7/20] Iter [512/1242] Loss: 0.2625
+Epoch [7/20] Iter [640/1242] Loss: 0.2596
+Epoch [7/20] Iter [768/1242] Loss: 0.2606
+Epoch [7/20] Iter [896/1242] Loss: 0.2611
+Epoch [7/20] Iter [1024/1242] Loss: 0.2602
+Epoch [7/20] Iter [1152/1242] Loss: 0.2609
+Epoch [7/20] Loss: 0.2619 LR: 0.000655
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.75, F1: 85.55, Precision: 82.54, Recall: 88.78, OA: 98.89, Kappa: 0.8498
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 62.10, F1: 76.62, Precision: 72.27, Recall: 81.53, OA: 97.47, Kappa: 0.7528
+
+
+
+===========> Epoch: 8, Previous best AVG whu_levir Changed IoU: 69.38
+Epoch [8/20] Iter [0/1242] Loss: 0.3241
+Epoch [8/20] Iter [128/1242] Loss: 0.2587
+Epoch [8/20] Iter [256/1242] Loss: 0.2548
+Epoch [8/20] Iter [384/1242] Loss: 0.2576
+Epoch [8/20] Iter [512/1242] Loss: 0.2562
+Epoch [8/20] Iter [640/1242] Loss: 0.2546
+Epoch [8/20] Iter [768/1242] Loss: 0.2553
+Epoch [8/20] Iter [896/1242] Loss: 0.2552
+Epoch [8/20] Iter [1024/1242] Loss: 0.2546
+Epoch [8/20] Iter [1152/1242] Loss: 0.2553
+Epoch [8/20] Loss: 0.2551 LR: 0.000578
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 75.63, F1: 86.12, Precision: 80.59, Recall: 92.47, OA: 98.90, Kappa: 0.8555
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 63.90, F1: 77.98, Precision: 70.83, Recall: 86.73, OA: 97.50, Kappa: 0.7667
+Best model saved with Avg IoU: 69.76
+
+
+===========> Epoch: 9, Previous best AVG whu_levir Changed IoU: 69.76
+Epoch [9/20] Iter [0/1242] Loss: 0.1595
+Epoch [9/20] Iter [128/1242] Loss: 0.2398
+Epoch [9/20] Iter [256/1242] Loss: 0.2467
+Epoch [9/20] Iter [384/1242] Loss: 0.2478
+Epoch [9/20] Iter [512/1242] Loss: 0.2473
+Epoch [9/20] Iter [640/1242] Loss: 0.2479
+Epoch [9/20] Iter [768/1242] Loss: 0.2476
+Epoch [9/20] Iter [896/1242] Loss: 0.2496
+Epoch [9/20] Iter [1024/1242] Loss: 0.2491
+Epoch [9/20] Iter [1152/1242] Loss: 0.2479
+Epoch [9/20] Loss: 0.2473 LR: 0.000500
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 75.72, F1: 86.18, Precision: 80.86, Recall: 92.25, OA: 98.91, Kappa: 0.8562
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.91, F1: 78.72, Precision: 69.73, Recall: 90.38, OA: 97.51, Kappa: 0.7742
+Best model saved with Avg IoU: 70.32
+
+
+===========> Epoch: 10, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [10/20] Iter [0/1242] Loss: 0.1652
+Epoch [10/20] Iter [128/1242] Loss: 0.2416
+Epoch [10/20] Iter [256/1242] Loss: 0.2376
+Epoch [10/20] Iter [384/1242] Loss: 0.2401
+Epoch [10/20] Iter [512/1242] Loss: 0.2429
+Epoch [10/20] Iter [640/1242] Loss: 0.2443
+Epoch [10/20] Iter [768/1242] Loss: 0.2416
+Epoch [10/20] Iter [896/1242] Loss: 0.2417
+Epoch [10/20] Iter [1024/1242] Loss: 0.2413
+Epoch [10/20] Iter [1152/1242] Loss: 0.2398
+Epoch [10/20] Loss: 0.2408 LR: 0.000422
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 73.55, F1: 84.76, Precision: 77.72, Recall: 93.20, OA: 98.76, Kappa: 0.8412
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 65.75, F1: 79.33, Precision: 68.64, Recall: 93.97, OA: 97.51, Kappa: 0.7804
+
+
+
+===========> Epoch: 11, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [11/20] Iter [0/1242] Loss: 0.1440
+Epoch [11/20] Iter [128/1242] Loss: 0.2223
+Epoch [11/20] Iter [256/1242] Loss: 0.2314
+Epoch [11/20] Iter [384/1242] Loss: 0.2272
+Epoch [11/20] Iter [512/1242] Loss: 0.2273
+Epoch [11/20] Iter [640/1242] Loss: 0.2300
+Epoch [11/20] Iter [768/1242] Loss: 0.2303
+Epoch [11/20] Iter [896/1242] Loss: 0.2301
+Epoch [11/20] Iter [1024/1242] Loss: 0.2310
+Epoch [11/20] Iter [1152/1242] Loss: 0.2331
+Epoch [11/20] Loss: 0.2332 LR: 0.000345
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 75.79, F1: 86.23, Precision: 81.33, Recall: 91.77, OA: 98.92, Kappa: 0.8567
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.40, F1: 78.34, Precision: 70.21, Recall: 88.61, OA: 97.50, Kappa: 0.7704
+
+
+
+===========> Epoch: 12, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [12/20] Iter [0/1242] Loss: 0.2047
+Epoch [12/20] Iter [128/1242] Loss: 0.2332
+Epoch [12/20] Iter [256/1242] Loss: 0.2323
+Epoch [12/20] Iter [384/1242] Loss: 0.2322
+Epoch [12/20] Iter [512/1242] Loss: 0.2292
+Epoch [12/20] Iter [640/1242] Loss: 0.2279
+Epoch [12/20] Iter [768/1242] Loss: 0.2259
+Epoch [12/20] Iter [896/1242] Loss: 0.2267
+Epoch [12/20] Iter [1024/1242] Loss: 0.2271
+Epoch [12/20] Iter [1152/1242] Loss: 0.2263
+Epoch [12/20] Loss: 0.2259 LR: 0.000273
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.19, F1: 85.18, Precision: 78.36, Recall: 93.31, OA: 98.80, Kappa: 0.8456
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.61, F1: 78.50, Precision: 68.62, Recall: 91.70, OA: 97.44, Kappa: 0.7717
+
+
+
+===========> Epoch: 13, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [13/20] Iter [0/1242] Loss: 0.3230
+Epoch [13/20] Iter [128/1242] Loss: 0.2232
+Epoch [13/20] Iter [256/1242] Loss: 0.2206
+Epoch [13/20] Iter [384/1242] Loss: 0.2190
+Epoch [13/20] Iter [512/1242] Loss: 0.2200
+Epoch [13/20] Iter [640/1242] Loss: 0.2185
+Epoch [13/20] Iter [768/1242] Loss: 0.2173
+Epoch [13/20] Iter [896/1242] Loss: 0.2187
+Epoch [13/20] Iter [1024/1242] Loss: 0.2186
+Epoch [13/20] Iter [1152/1242] Loss: 0.2186
+Epoch [13/20] Loss: 0.2185 LR: 0.000206
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.64, F1: 85.48, Precision: 79.41, Recall: 92.56, OA: 98.84, Kappa: 0.8488
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 65.31, F1: 79.02, Precision: 70.06, Recall: 90.60, OA: 97.55, Kappa: 0.7774
+
+
+
+===========> Epoch: 14, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [14/20] Iter [0/1242] Loss: 0.2302
+Epoch [14/20] Iter [128/1242] Loss: 0.2086
+Epoch [14/20] Iter [256/1242] Loss: 0.2063
+Epoch [14/20] Iter [384/1242] Loss: 0.2073
+Epoch [14/20] Iter [512/1242] Loss: 0.2070
+Epoch [14/20] Iter [640/1242] Loss: 0.2076
+Epoch [14/20] Iter [768/1242] Loss: 0.2087
+Epoch [14/20] Iter [896/1242] Loss: 0.2089
+Epoch [14/20] Iter [1024/1242] Loss: 0.2088
+Epoch [14/20] Iter [1152/1242] Loss: 0.2108
+Epoch [14/20] Loss: 0.2113 LR: 0.000146
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 75.03, F1: 85.73, Precision: 79.56, Recall: 92.94, OA: 98.86, Kappa: 0.8514
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.90, F1: 78.72, Precision: 69.46, Recall: 90.81, OA: 97.50, Kappa: 0.7741
+
+
+
+===========> Epoch: 15, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [15/20] Iter [0/1242] Loss: 0.1545
+Epoch [15/20] Iter [128/1242] Loss: 0.2078
+Epoch [15/20] Iter [256/1242] Loss: 0.2040
+Epoch [15/20] Iter [384/1242] Loss: 0.2023
+Epoch [15/20] Iter [512/1242] Loss: 0.2032
+Epoch [15/20] Iter [640/1242] Loss: 0.2046
+Epoch [15/20] Iter [768/1242] Loss: 0.2057
+Epoch [15/20] Iter [896/1242] Loss: 0.2053
+Epoch [15/20] Iter [1024/1242] Loss: 0.2060
+Epoch [15/20] Iter [1152/1242] Loss: 0.2060
+Epoch [15/20] Loss: 0.2053 LR: 0.000095
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 75.03, F1: 85.73, Precision: 80.15, Recall: 92.15, OA: 98.87, Kappa: 0.8515
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.37, F1: 78.32, Precision: 70.02, Recall: 88.86, OA: 97.49, Kappa: 0.7701
+
+
+
+===========> Epoch: 16, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [16/20] Iter [0/1242] Loss: 0.2083
+Epoch [16/20] Iter [128/1242] Loss: 0.2016
+Epoch [16/20] Iter [256/1242] Loss: 0.2010
+Epoch [16/20] Iter [384/1242] Loss: 0.1993
+Epoch [16/20] Iter [512/1242] Loss: 0.1992
+Epoch [16/20] Iter [640/1242] Loss: 0.1994
+Epoch [16/20] Iter [768/1242] Loss: 0.1989
+Epoch [16/20] Iter [896/1242] Loss: 0.1983
+Epoch [16/20] Iter [1024/1242] Loss: 0.1990
+Epoch [16/20] Iter [1152/1242] Loss: 0.1985
+Epoch [16/20] Loss: 0.1996 LR: 0.000054
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.61, F1: 85.46, Precision: 79.06, Recall: 92.99, OA: 98.83, Kappa: 0.8486
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.68, F1: 78.55, Precision: 69.36, Recall: 90.55, OA: 97.48, Kappa: 0.7724
+
+
+
+===========> Epoch: 17, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [17/20] Iter [0/1242] Loss: 0.1971
+Epoch [17/20] Iter [128/1242] Loss: 0.2004
+Epoch [17/20] Iter [256/1242] Loss: 0.1953
+Epoch [17/20] Iter [384/1242] Loss: 0.1980
+Epoch [17/20] Iter [512/1242] Loss: 0.1969
+Epoch [17/20] Iter [640/1242] Loss: 0.1975
+Epoch [17/20] Iter [768/1242] Loss: 0.1985
+Epoch [17/20] Iter [896/1242] Loss: 0.1973
+Epoch [17/20] Iter [1024/1242] Loss: 0.1965
+Epoch [17/20] Iter [1152/1242] Loss: 0.1961
+Epoch [17/20] Loss: 0.1957 LR: 0.000024
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.73, F1: 85.54, Precision: 79.54, Recall: 92.53, OA: 98.85, Kappa: 0.8494
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.18, F1: 78.18, Precision: 69.53, Recall: 89.30, OA: 97.46, Kappa: 0.7686
+
+
+
+===========> Epoch: 18, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [18/20] Iter [0/1242] Loss: 0.1146
+Epoch [18/20] Iter [128/1242] Loss: 0.1873
+Epoch [18/20] Iter [256/1242] Loss: 0.1851
+Epoch [18/20] Iter [384/1242] Loss: 0.1899
+Epoch [18/20] Iter [512/1242] Loss: 0.1922
+Epoch [18/20] Iter [640/1242] Loss: 0.1913
+Epoch [18/20] Iter [768/1242] Loss: 0.1926
+Epoch [18/20] Iter [896/1242] Loss: 0.1927
+Epoch [18/20] Iter [1024/1242] Loss: 0.1921
+Epoch [18/20] Iter [1152/1242] Loss: 0.1924
+Epoch [18/20] Loss: 0.1932 LR: 0.000006
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.63, F1: 85.47, Precision: 79.24, Recall: 92.77, OA: 98.84, Kappa: 0.8487
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.19, F1: 78.19, Precision: 69.26, Recall: 89.76, OA: 97.45, Kappa: 0.7686
+
+
+
+===========> Epoch: 19, Previous best AVG whu_levir Changed IoU: 70.32
+Epoch [19/20] Iter [0/1242] Loss: 0.1581
+Epoch [19/20] Iter [128/1242] Loss: 0.1900
+Epoch [19/20] Iter [256/1242] Loss: 0.1934
+Epoch [19/20] Iter [384/1242] Loss: 0.1962
+Epoch [19/20] Iter [512/1242] Loss: 0.1948
+Epoch [19/20] Iter [640/1242] Loss: 0.1948
+Epoch [19/20] Iter [768/1242] Loss: 0.1939
+Epoch [19/20] Iter [896/1242] Loss: 0.1934
+Epoch [19/20] Iter [1024/1242] Loss: 0.1928
+Epoch [19/20] Iter [1152/1242] Loss: 0.1921
+Epoch [19/20] Loss: 0.1920 LR: 0.000000
+
+***** Evaluation WHU-CD-512 ***** >>>> IoU: 74.60, F1: 85.45, Precision: 79.28, Recall: 92.67, OA: 98.84, Kappa: 0.8485
+***** Evaluation LEVIR-CD-512 ***** >>>> IoU: 64.17, F1: 78.17, Precision: 69.29, Recall: 89.66, OA: 97.45, Kappa: 0.7684
+
+
