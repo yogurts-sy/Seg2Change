@@ -43,7 +43,7 @@
 ## Results
 **We provide the [training log](https://github.com/yogurts-sy/Seg2Change/tree/main/exp) of each reported value. You can refer to them during reproducing. We also provide the best cach [checkpoints](https://github.com/yogurts-sy/Seg2Change/blob/main/exp/CK/best.pth) of our core experiments.**
 
-### Binary Open-Vocabulary Change Detection (F1<sup>c</sup> / IoU<sup>c</sup>)
+### Open-Vocabulary Binary Change Detection (F1<sup>c</sup> / IoU<sup>c</sup>)
 
 | Method            |  Identifier | Comparator | WHU-CD | LEVIR-CD |
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
@@ -69,7 +69,7 @@
 | DynamicEarth* |  SegEarth-OV3  | Latent Match (DINOv2) | 39.30 / 24.45 | <ins>38.16</ins> / <ins>23.58</ins> |
 | **Seg2Change**   | SegEarth-OV3 | CACH (ours) | **58.56 / 41.40**  | **47.89 / 31.48**  |
 
-### Semantic Open-Vocabulary Change Detection (mF1<sup>c</sup> / mIoU<sup>c</sup>)
+### Open-Vocabulary Semantic Change Detection (mF1<sup>c</sup> / mIoU<sup>c</sup>)
 
 | Method            |  GPU Memory (GB) | Inference Time (ms) | SC-SCD | SECOND |
 | :---------------: | :----------: | :---------: | :-------: | :-------: |
