@@ -132,7 +132,7 @@ python train_cach_dino.py
 
 ## Citation
 ```
-@misc{su2026seg2changeadaptingopenvocabularysemantic,
+@misc{su2026seg2change,
       title={Seg2Change: Adapting Open-Vocabulary Semantic Segmentation Model for Remote Sensing Change Detection}, 
       author={You Su and Yonghong Song and Jingqi Chen and Zehan Wen},
       year={2026},
