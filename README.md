@@ -20,7 +20,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://github.com/yogurts-sy/Seg2Change" target='_blank'>[Code]</a> • <a href="" target='_blank'>[arXiv]</a> • <a href="https://github.com/yogurts-sy/Seg2Change/blob/main/test_cach_ovcd.py" target='_blank'>[Reproduce]</a> •
+        • <a href="https://github.com/yogurts-sy/Seg2Change" target='_blank'>[Code]</a> • <a href="https://arxiv.org/abs/2604.11231" target='_blank'>[arXiv]</a> • <a href="https://github.com/yogurts-sy/Seg2Change/blob/main/test_cach_ovcd.py" target='_blank'>[Reproduce]</a> •
     </h4>
 </div>
 
@@ -131,9 +131,16 @@ python train_cach_dino.py
 
 
 ## Citation
-
 ```
-
+@misc{su2026seg2changeadaptingopenvocabularysemantic,
+      title={Seg2Change: Adapting Open-Vocabulary Semantic Segmentation Model for Remote Sensing Change Detection}, 
+      author={You Su and Yonghong Song and Jingqi Chen and Zehan Wen},
+      year={2026},
+      eprint={2604.11231},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.11231}, 
+}
 ```
 
 ## Acknowledgement
