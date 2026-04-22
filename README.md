@@ -95,14 +95,24 @@ Please crop the images to a resolution of 512×512 for dataset preparation and o
 
 Please follow the version information provided in `requirements.txt`. The installation procedure for the key dependencies is as follows:
 ```bash
-# torch, torchvision, torchaudio, xformers
+# 1. Python version and Conda environment setup
+conda create -n seg2change python=3.9.25
+
+# 2. torch, torchvision, torchaudio, xformers
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 xformers==0.0.28.post1 --index-url https://download.pytorch.org/whl/cu121
 
-# mmcv
+# 3. mmcv
 pip install -U openmim
 mim install mmcv==2.2.0
 
-# other dependencies
+# 4. Comment out the mmcv version constraint in mmseg:
+# (in /root/miniconda3/envs/seg2change/lib/python3.9/site-packages/mmseg/init.py, lines 61–63)
+
+# assert (mmcv_min_version <= mmcv_version < mmcv_max_version), \\
+#     f'MMCV=={mmcv.__version__} is used but incompatible. ' \\
+#     f'Please install mmcv>=2.0.0rc4.'
+
+# 5. other dependencies
 pip install -r requirements.txt
 ```
 
