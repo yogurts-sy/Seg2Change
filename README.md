@@ -3,6 +3,7 @@
 <h1>Seg2Change: Adapting Open-Vocabulary Semantic Segmentation Model for Remote Sensing Change Detection</h1>
 
 <!-- <h3></h3> -->
+<h4>✨ACM MM 2026✨</h4>
 
 <div>
     <strong>Adapting OVSS model for remote sensing OVCD</strong>
