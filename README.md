@@ -21,7 +21,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://github.com/yogurts-sy/Seg2Change" target='_blank'>[Code]</a> • <a href="https://arxiv.org/abs/2604.11231" target='_blank'>[arXiv]</a> • <a href="https://github.com/yogurts-sy/Seg2Change/blob/main/test_cach_ovcd.py" target='_blank'>[Reproduce]</a> •
+        • <a href="https://dl.acm.org/doi/10.1145/3767308.3835468" target='_blank'>[ACM MM]</a> • <a href="https://arxiv.org/abs/2604.11231" target='_blank'>[arXiv]</a> • <a href="https://github.com/yogurts-sy/Seg2Change/blob/main/test_cach_ovcd.py" target='_blank'>[Reproduce]</a> •
     </h4>
 </div>
 
@@ -143,14 +143,21 @@ python train_cach_dino.py
 
 ## Citation
 ```
-@misc{su2026seg2change,
-      title={Seg2Change: Adapting Open-Vocabulary Semantic Segmentation Model for Remote Sensing Change Detection}, 
-      author={You Su and Yonghong Song and Jingqi Chen and Zehan Wen},
-      year={2026},
-      eprint={2604.11231},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2604.11231}, 
+@inproceedings{seg2change,
+author = {Su, You and Song, Yonghong and Chen, Jingqi and Wen, Zehan},
+title = {Seg2Change: Adapting Open-Vocabulary Semantic Segmentation Model for Remote Sensing Change Detection},
+year = {2026},
+isbn = {9798400722134},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3767308.3835468},
+doi = {10.1145/3767308.3835468},
+booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
+pages = {9157–9166},
+numpages = {10},
+keywords = {open-vocabulary change detection, remote sensing},
+location = {Rio de Janeiro, Brazil},
+series = {MM '26}
 }
 ```
 
